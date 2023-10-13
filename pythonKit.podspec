@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'pythonKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of pythonKit.'
+  s.summary          = 'A pod to use python in swift projects'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/39903360/pythonKit'
+  s.homepage         = 'https://github.com/Thierrynjike/pythonKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '39903360' => 'thierrynjike14@gmail.com' }
-  s.source           = { :git => 'https://github.com/39903360/pythonKit.git', :tag => s.version.to_s }
+  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
+  s.author           = { 'Thierry Njike' => 'thierrynjike14@gmail.com' }
+  s.source           = { :git => 'https://github.com/Thierrynjike/pythonKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'pythonKit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'pythonKit' => ['pythonKit/Assets/*.png']
   # }
-
+  s.swift_version = '5.0'
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
