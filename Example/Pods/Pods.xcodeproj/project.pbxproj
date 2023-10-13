@@ -100,9 +100,9 @@
 		AC1B0A94D98FF6A485E56165BDAAFB8F /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03911E45674148516513B8B7AB90489 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		ACAA345A1CCAFA1F4EE69B3C25D62558 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7672AF984EAA487DDC6161633E12530 /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		ACDD10B7963A08824110AB5668BAB575 /* pythonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D35AAA3F735E6C82EEC2767D0172E8E /* pythonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AED6F8F92AD980AA006EC3AA /* PythonLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6F8F82AD980AA006EC3AA /* PythonLibrary.swift */; };
-		AED6F8FB2AD980D0006EC3AA /* PythonLibrary+Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6F8FA2AD980D0006EC3AA /* PythonLibrary+Symbols.swift */; };
-		AED6F8FD2AD980F1006EC3AA /* NumpyConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6F8FC2AD980F1006EC3AA /* NumpyConversion.swift */; };
+		AE16C33F2AD9A44900146594 /* NumpyConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16C33C2AD9A44900146594 /* NumpyConversion.swift */; };
+		AE16C3402AD9A44900146594 /* PythonLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16C33D2AD9A44900146594 /* PythonLibrary.swift */; };
+		AE16C3412AD9A44900146594 /* PythonLibrary+Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16C33E2AD9A44900146594 /* PythonLibrary+Symbols.swift */; };
 		AFB4F603FD0F5C407CB8920F6A5BA7A1 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8087DE45015B71D2B06EA4510AE5CF6A /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B4C8F9C94051EF2F9954FDAA9467C707 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A431DC0126F0596E5DC39E181926DD /* QuickTestSuite.swift */; };
 		B93F3526A95D7F43EEBFEE5E453E4795 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE3C6B0EF06A5BDC213259D5F03B1B7 /* BeLessThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -264,10 +264,10 @@
 		A7E4265253F0C2E2E88973422E9522FD /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
 		A83DB2FDCF978EEDF2D2D29B959D29A9 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
 		A84CDBD821941154433DC95DE89B12CF /* Pods-pythonKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pythonKit_Example.modulemap"; sourceTree = "<group>"; };
+		AE16C33C2AD9A44900146594 /* NumpyConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumpyConversion.swift; path = pythonKit/Classes/NumpyConversion.swift; sourceTree = "<group>"; };
+		AE16C33D2AD9A44900146594 /* PythonLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PythonLibrary.swift; path = pythonKit/Classes/PythonLibrary.swift; sourceTree = "<group>"; };
+		AE16C33E2AD9A44900146594 /* PythonLibrary+Symbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PythonLibrary+Symbols.swift"; path = "pythonKit/Classes/PythonLibrary+Symbols.swift"; sourceTree = "<group>"; };
 		AE1C96AA6B530E65DF71C6A98C66BAB4 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
-		AED6F8F82AD980AA006EC3AA /* PythonLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonLibrary.swift; sourceTree = "<group>"; };
-		AED6F8FA2AD980D0006EC3AA /* PythonLibrary+Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PythonLibrary+Symbols.swift"; sourceTree = "<group>"; };
-		AED6F8FC2AD980F1006EC3AA /* NumpyConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumpyConversion.swift; sourceTree = "<group>"; };
 		B0482C5E4D124D00B21256C1057D8F6A /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		B2736600DEF846B46B1435380E57B1EA /* Pods-pythonKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pythonKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B3D07D43542AC8C5EAED0B2D8C704884 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
@@ -409,9 +409,9 @@
 		363E46889B36230D9854E6D56B2969E6 /* pythonKit */ = {
 			isa = PBXGroup;
 			children = (
-				AED6F8F82AD980AA006EC3AA /* PythonLibrary.swift */,
-				AED6F8FA2AD980D0006EC3AA /* PythonLibrary+Symbols.swift */,
-				AED6F8FC2AD980F1006EC3AA /* NumpyConversion.swift */,
+				AE16C33C2AD9A44900146594 /* NumpyConversion.swift */,
+				AE16C33D2AD9A44900146594 /* PythonLibrary.swift */,
+				AE16C33E2AD9A44900146594 /* PythonLibrary+Symbols.swift */,
 				241730F121BE9CC91F90EB7423749D4B /* pythonKit.swift */,
 				DBD938A5303FE50CC6DDD338450D2250 /* Pod */,
 				B367D7A6C8D704069152F1BCB2B46F70 /* Support Files */,
@@ -1020,10 +1020,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7B18C821C9E98A77E284AE7AEB89F5C /* pythonKit.swift in Sources */,
-				AED6F8FD2AD980F1006EC3AA /* NumpyConversion.swift in Sources */,
-				AED6F8FB2AD980D0006EC3AA /* PythonLibrary+Symbols.swift in Sources */,
+				AE16C3402AD9A44900146594 /* PythonLibrary.swift in Sources */,
 				4FEA82334E607C2CB2EC312E33F86EA4 /* pythonKit-dummy.m in Sources */,
-				AED6F8F92AD980AA006EC3AA /* PythonLibrary.swift in Sources */,
+				AE16C3412AD9A44900146594 /* PythonLibrary+Symbols.swift in Sources */,
+				AE16C33F2AD9A44900146594 /* NumpyConversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
