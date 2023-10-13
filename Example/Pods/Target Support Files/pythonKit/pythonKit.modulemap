@@ -1,0 +1,6 @@
+framework module pythonKit {
+  umbrella header "pythonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

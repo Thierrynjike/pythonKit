@@ -1,0 +1,26 @@
+{
+  "name": "pythonKit",
+  "version": "0.1.0",
+  "summary": "A pod to use python in swift projects",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/thierrynjike/pythonKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thierry Njike": "thierrynjike14@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/thierrynjike/pythonKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "pythonKit/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
+}
