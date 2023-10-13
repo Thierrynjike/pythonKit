@@ -22,8 +22,8 @@ pod 'pythonKit'
 
 ## Author
 
-39903360, thierrynjike14@gmail.com
+Thierry Njike, thierrynjike14@gmail.com
 
 ## License
 
-pythonKit is available under the MIT license. See the LICENSE file for more info.
+pythonKit is available under the Apache 2.0 license. See the LICENSE file for more info.
